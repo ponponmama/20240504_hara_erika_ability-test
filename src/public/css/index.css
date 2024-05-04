@@ -1,0 +1,145 @@
+.contact-form__content {
+    max-width: 1230px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 5px 15px;
+}
+
+.contact-form__heading {
+    height: 10%;
+}
+
+.cf-heading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 2px;
+    text-align: center;
+    color: rgb(61,45,11,0.863);
+    font-size: 1.5rem;
+    margin: 1%;
+}
+
+.contact-form {
+    margin: 4% 7%;
+}
+
+.form {
+    width: 80%;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(61, 45, 11, 0.863);
+    font-size: small;
+    margin: 0 10px 0 10px;
+    padding: 3px;
+}
+
+.form__group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+.form__group-title {
+    width: 30%;
+    text-align: left;
+}
+
+.form__group-content {
+    width: 70%;
+    /*margin-top: 3%;*/
+    right: 2px;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    color: #ff0000;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.name__input--text {
+    display: flex;
+    gap: 10px;
+}
+
+.name__input--text input {
+    padding: 10px;
+    width: 48%;
+    border: 1px solid rgba(224, 224, 222, 0.904);
+    background-color: rgba(248, 248, 234, 0.76);
+    border-radius: 3px;
+}
+
+.form__input--radio {
+    width: 100%;
+    margin-right: 10%;
+}
+
+.gender-radio {
+    accent-color:rgb(61, 45, 11, 0.863);
+}
+
+.form__input--text input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid rgba(224, 224, 222, 0.904);
+    background-color: rgba(248, 248, 234, 0.76);
+    appearance: none;
+    border-radius: 1px;
+}
+
+.form__input--tel {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+
+.form__input--tel input {
+    padding: 10px;
+    width: 28%;
+    border: 1px solid rgba(224, 224, 222, 0.904);
+    background-color: rgba(248, 248, 234, 0.76);
+    border-radius: 3px;
+}
+
+.form__input--textarea textarea {
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(224, 224, 222, 0.904);
+    background-color: rgba(248, 248, 234, 0.76);
+    border-radius: 3px;
+    appearance: none;
+}
+
+
+.form__input--text input {
+    height: 40px;
+}
+
+.form__button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 34%;
+    height: 55px;
+    background: rgba(61,45,11,0.863);
+    border: 3px solid rgba(248, 248, 234, 0.76);
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.f-button {
+    text-decoration: none;
+    color: #fff;
+}

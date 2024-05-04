@@ -1,0 +1,99 @@
+.confirm__content {
+    max-width: 1230px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 30px 15px;
+}
+
+.confirm__heading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 1px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: rgba(61,45,11,0.863);
+}
+
+.contact-form {
+    margin: 3% 7%;
+}
+
+.form {
+    width: 70%;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(61, 45, 11, 0.863);
+    font-size: small;
+    margin: 3% 15%;
+}
+
+.tbody {
+    width: 100%;
+    margin: 10px;
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.confirm-table__inner {
+    width: 100%;
+    text-align: left;
+}
+
+th {
+    padding: 3px;
+    border: 1px solid rgba(46, 34, 9, 0.863);
+    background-color: rgba(61, 45, 11, 0.863);
+    color: white;
+}
+
+
+.confirm-table__text {
+    padding: 3px;
+    border: 1px solid rgba(224,224,222,0.904);
+    border-radius: 3px;
+    background-color: white(248, 248, 205);
+}
+
+.confirm-table__text input {
+    background-color: white(248, 248, 205);
+    padding: 3px;
+    width: 94%;
+    outline: none;
+    border: none;
+}
+
+.confirm-table__row:last-child.confirm-table__header,
+.confirm-table__row:last-child.confirm-table__text {
+    border-bottom-width: 0;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 45px;
+    background: rgba(61, 45, 11, 0.863);
+    border: 3px solid rgb(247, 247, 205, 0.89);
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.form-button {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    text-align: center;
+}
+
+.form__button-edit {
+    padding: 10px;
+    width: 30%;
+    height: 45px;
+    background: white;
+    border: 3px solid white;
+    color: rgba(61, 45, 11, 0.863);
+    border-radius: 6px;
+    cursor: pointer;
+}

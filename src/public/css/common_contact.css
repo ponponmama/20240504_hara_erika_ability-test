@@ -1,0 +1,39 @@
+.header {
+    height: 20%;
+    background: white;
+    padding: 1px;
+}
+
+.header__inner {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.header-utilities {
+    width: 100%;
+    height: 50px;
+    padding: 1%;
+}
+
+.header__logo__box {
+    width: 100%;
+    text-align: center;
+
+}
+
+
+.header__logo {
+    margin: 5%;
+    color: rgba(61, 45, 11, 0.863);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.hn-button {
+    width: 15%;
+    text-align: center;
+}
+
